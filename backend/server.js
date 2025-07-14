@@ -19,7 +19,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-  origin: 'https://online-quiz-ga28ukib4-sai-kumar-reddys-projects.vercel.app/',
+  origin: 'https://onlinequizapp-frontend.onrender.com/',
   credentials: true
 }));
 app.use(express.json());
